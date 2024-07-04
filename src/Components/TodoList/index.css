@@ -1,0 +1,114 @@
+.back{
+    display:flex;
+    height:90vh;
+    width:100vw;
+
+    padding:30px;
+    
+}
+ul{
+    list-style-type:none;
+    padding:0px;
+}
+.sub1{
+    border-radius:30px;
+    width:60vw;
+    margin:20px;
+    padding:20px;
+    background-image:url("https://img.freepik.com/premium-photo/list-icon-notebook-with-completed-todo-list-3d-render_471402-428.jpg?w=900");
+    background-size:cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.head{
+    display:flex;
+    justify-content:space-between;
+}
+.card2{
+    padding-top:20px;
+    height:85%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.sub2{
+    padding-top:30px;
+    padding:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:30px;
+    min-height:30%;
+    background-image:url("https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png");
+    background-size:cover;
+    width:25vw;
+    margin-bottom:20px;
+}
+.sub3{
+    padding:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:30px;
+    
+    height:60%;
+}
+.f{
+    display:flex;
+    height:100%;
+}
+.t{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.complete{
+    background-color:blue;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+    border:none;
+    height:5vh;
+    width:50%;
+   
+}
+.complete1{
+    background-color: #0b69ff;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+    border:none;
+    height:5vh;
+    width:50%;
+   
+}
+.todo{
+    font-size:23px;
+}
+.input{
+    margin-top:10px;
+    margin-bottom:20px;
+    width:90%;
+    height:3vh;
+}
+.o{
+    display:flex;
+}
+.r{
+    display:flex;
+    align-items:center;
+    margin-right:4px;
+}
+.des{
+    width:90%;
+    height:14vh;
+    margin-bottom:20px;
+}
+.h1{
+    font-size:20px;
+    margin-bottom:0px;
+    padding:0px;
+}
+.empty{
+    text-align:center;
+    color:grey;
+    font-size:20px;
+}
